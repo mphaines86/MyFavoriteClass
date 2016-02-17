@@ -1,0 +1,1 @@
+schtasks /create /tn MyFavoriteClass /tr "pythonw C:\Users\Michael Haines\PycharmProjects\MyFavoriteClass\getTime" /sc minute
