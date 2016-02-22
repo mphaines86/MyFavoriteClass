@@ -1,8 +1,6 @@
 __author__ = 'michael'
 from datetime import datetime
-import subprocess
 from WindowsNoticification import WindowsBalloonTip
-import time, threading
 
 class ClassTime(object):
 
