@@ -36,8 +36,9 @@ class ClassTime(object):
             else:
                 return next_time - current_time
 
+
 def balloon_tip(title, msg):
-    w=WindowsBalloonTip(title, msg)
+    w = WindowsBalloonTip(title, msg)
 
 if __name__ == "__main__":
     current_time = ClassTime.timeDifferance([0,2,5])
